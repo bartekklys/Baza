@@ -1,7 +1,9 @@
+package Entities;
+
 import javax.persistence.*;
 
 @Entity
-@Table(name = "Employee")
+@Table(name = "Entities.Employee")
 public class Employee {
     @Id @GeneratedValue
     @Column(name = "id")

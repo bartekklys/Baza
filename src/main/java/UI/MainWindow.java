@@ -1,3 +1,13 @@
+package UI;
+
+import Entities.*;
+import DatabaseManager.CreateEmployee;
+import DatabaseManager.DeleteEmployee;
+import DatabaseManager.UpdateEmployee;
+import Entities.Address;
+import Entities.Employee;
+import Entities.Phone;
+
 import javax.swing.*;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
