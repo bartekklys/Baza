@@ -21,6 +21,7 @@ public class MainWindow extends JFrame{
     private JTextField tfStreet;
     private JTextField tfCity;
     private JTextField tfPostCode;
+    private JButton exitButton;
 
 
     public MainWindow() {
@@ -69,6 +70,11 @@ public class MainWindow extends JFrame{
             }
         });
 
+        exitButton.addActionListener(new ActionListener() {
+            public void actionPerformed(ActionEvent e) {
+                System.exit(0);
+            }
+        });
     }
 
     public static void main(String[] args) {

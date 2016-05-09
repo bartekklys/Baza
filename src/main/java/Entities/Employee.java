@@ -34,18 +34,4 @@ public class Employee {
         this.address = address;
         this.phone = phone;
     }
-
-    public void setFirstName(String firstName) {
-        this.firstName = firstName;
-    }
-
-
-    public void setLastName(String lastName) {
-        this.lastName = lastName;
-    }
-
-
-    public void setSalary(int salary) {
-        this.salary = salary;
-    }
 }
