@@ -17,9 +17,10 @@ public class Phone {
     @Column(name = "category")
     private String category;
 
+    public Phone(){}
+
     public Phone(String number, String category) {
         this.number = number;
         this.category = category;
     }
-
 }

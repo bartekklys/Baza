@@ -15,6 +15,8 @@ public class Address {
     @Column(name = "post_code")
     private String postCode;
 
+    public Address(){}
+
     public Address(String street, String city, String postCode) {
         this.street = street;
         this.city = city;

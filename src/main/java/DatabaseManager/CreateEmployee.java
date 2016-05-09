@@ -14,7 +14,6 @@ public class CreateEmployee {
 
         session.save(employee);
         session.getTransaction().commit();
-        //sessionFactory.close();
         session.close();
     }
 }

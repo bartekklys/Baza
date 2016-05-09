@@ -3,7 +3,6 @@ package Entities;
 import javax.persistence.*;
 
 @Entity
-@Table(name = "Entities.Employee")
 public class Employee {
     @Id @GeneratedValue
     @Column(name = "id")
@@ -26,7 +25,7 @@ public class Employee {
     @JoinColumn(name = "phone_id")
     private Phone phone;
 
-    public Employee(){};
+    public Employee(){}
 
     public Employee(String firstName, String lastName, int salary, Address address, Phone phone) {
         this.firstName = firstName;

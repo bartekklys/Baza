@@ -3,10 +3,6 @@ package UI;
 import Entities.*;
 import DatabaseManager.CreateEmployee;
 import DatabaseManager.DeleteEmployee;
-import DatabaseManager.UpdateEmployee;
-import Entities.Address;
-import Entities.Employee;
-import Entities.Phone;
 
 import javax.swing.*;
 import java.awt.event.ActionEvent;
@@ -20,19 +16,18 @@ public class MainWindow extends JFrame{
     private JButton addButton;
     private JButton deleteButton;
     private JTextField tfEID;
-    private JButton updateButton;
     private JTextField tfNumber;
     private JComboBox cbCategory;
     private JTextField tfStreet;
     private JTextField tfCity;
     private JTextField tfPostCode;
-    private final int width = 700;
-    private final int height = 450;
 
 
     public MainWindow() {
 
-        setSize(width,height);
+        int width = 700;
+        int height = 450;
+        setSize(width, height);
         setContentPane(main);
         setVisible(true);
         setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
@@ -49,10 +44,10 @@ public class MainWindow extends JFrame{
                 String city = tfCity.getText();
                 String postCode = tfPostCode.getText();
                 String number = tfNumber.getText();
-                String value = cbCategory.getSelectedItem().toString();
+                String category = cbCategory.getSelectedItem().toString();
 
                 CreateEmployee createEmployee = new CreateEmployee();
-                createEmployee.addEmployee(new Employee(name, surname, salary, new Address(street, city, postCode), new Phone(number, value)));
+                createEmployee.addEmployee(new Employee(name, surname, salary, new Address(street, city, postCode), new Phone(number, category)));
 
                 tfName.setText("");
                 tfSurname.setText("");
@@ -73,17 +68,7 @@ public class MainWindow extends JFrame{
                 deleteEmployee.deleteEmployee(id);
             }
         });
-        updateButton.addActionListener(new ActionListener() {
-            public void actionPerformed(ActionEvent e) {
-                int id = Integer.parseInt(tfEID.getText());
-                String name = tfName.getText();
-                String surname = tfSurname.getText();
-                int salary = Integer.parseInt((tfSalary.getText()));
 
-                UpdateEmployee update = new UpdateEmployee();
-                update.updateEmployee(id, name, surname, salary);
-            }
-        });
     }
 
     public static void main(String[] args) {
