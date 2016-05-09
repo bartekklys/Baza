@@ -16,12 +16,38 @@ public class Employee {
     @Column(name = "salary")
     private int salary;
 
+    @OneToOne(cascade = CascadeType.ALL)
+    @JoinColumn(name = "address_id")
+    private Address address;
+
+    @OneToOne(cascade = CascadeType.ALL)
+    @JoinColumn(name = "phone_id")
+    private Phone phone;
+
     public Employee(){};
 
-    public Employee(String firstName, String lastName, int salary) {
+    public Employee(String firstName, String lastName, int salary, Address address, Phone phone) {
         this.firstName = firstName;
         this.lastName = lastName;
         this.salary = salary;
+        this.address = address;
+        this.phone = phone;
+    }
+
+    public Phone getPhone() {
+        return phone;
+    }
+
+    public void setPhone(Phone phone) {
+        this.phone = phone;
+    }
+
+    public Address getAddress() {
+        return address;
+    }
+
+    public void setAddress(Address address) {
+        this.address = address;
     }
 
     public int getId() {

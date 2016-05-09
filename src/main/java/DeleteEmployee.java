@@ -13,6 +13,7 @@ public class DeleteEmployee {
 
         session.delete(employee);
         session.getTransaction().commit();
-        sessionFactory.close();
+        //sessionFactory.close();
+        session.close();
     }
 }

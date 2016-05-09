@@ -1,9 +1,6 @@
 import org.hibernate.Session;
 import org.hibernate.SessionFactory;
 
-/**
- * Created by bartek on 01.05.16.
- */
 public class UpdateEmployee {
 
     public void updateEmployee(int id, String name, String surname, int salary){

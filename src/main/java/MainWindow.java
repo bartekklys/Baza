@@ -1,6 +1,11 @@
+import javax.persistence.EntityManager;
+import javax.persistence.EntityManagerFactory;
+import javax.persistence.Persistence;
 import javax.swing.*;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
+import java.util.ArrayList;
+import java.util.List;
 
 public class MainWindow extends JFrame{
     private JPanel main;
@@ -11,6 +16,11 @@ public class MainWindow extends JFrame{
     private JButton deleteButton;
     private JTextField tfEID;
     private JButton updateButton;
+    private JTextField tfNumber;
+    private JComboBox cbCategory;
+    private JTextField tfStreet;
+    private JTextField tfCity;
+    private JTextField tfPostCode;
     private final int width = 700;
     private final int height = 450;
 
@@ -22,19 +32,32 @@ public class MainWindow extends JFrame{
         setVisible(true);
         setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 
+        cbCategory.setModel(new DefaultComboBoxModel(Category.values()));
+
         addButton.addActionListener(new ActionListener() {
             public void actionPerformed(ActionEvent e) {
 
                 String name = tfName.getText();
                 String surname = tfSurname.getText();
                 int salary = Integer.parseInt(tfSalary.getText());
+                String street = tfStreet.getText();
+                String city = tfCity.getText();
+                String postCode = tfPostCode.getText();
+                String number = tfNumber.getText();
+                Category category = (Category) cbCategory.getSelectedItem();
 
-                CreateEmployee employee = new CreateEmployee();
-                employee.addEmployee(new Employee(name, surname, salary));
+
+                CreateEmployee createEmployee = new CreateEmployee();
+                createEmployee.addEmployee(new Employee(name, surname, salary, new Address(street, city, postCode), new Phone(number, category)));
 
                 tfName.setText("");
                 tfSurname.setText("");
                 tfSalary.setText("");
+                tfStreet.setText("");
+                tfCity.setText("");
+                tfPostCode.setText("");
+                tfNumber.setText("");
+                cbCategory.setSelectedIndex(0);
 
             }
         });
@@ -60,6 +83,8 @@ public class MainWindow extends JFrame{
     }
 
     public static void main(String[] args) {
+
         MainWindow mw = new MainWindow();
+
     }
 }

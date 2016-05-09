@@ -13,5 +13,7 @@
         <property name="show_sql">true</property>
         <property name="hibernate.hbm2ddl.auto">update</property>
         <mapping class="Employee"></mapping>
+        <mapping class="Address"></mapping>
+        <mapping class="Phone"></mapping>
     </session-factory>
 </hibernate-configuration>
