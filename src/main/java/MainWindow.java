@@ -1,11 +1,6 @@
-import javax.persistence.EntityManager;
-import javax.persistence.EntityManagerFactory;
-import javax.persistence.Persistence;
 import javax.swing.*;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
-import java.util.ArrayList;
-import java.util.List;
 
 public class MainWindow extends JFrame{
     private JPanel main;
@@ -44,11 +39,10 @@ public class MainWindow extends JFrame{
                 String city = tfCity.getText();
                 String postCode = tfPostCode.getText();
                 String number = tfNumber.getText();
-                Category category = (Category) cbCategory.getSelectedItem();
-
+                String value = cbCategory.getSelectedItem().toString();
 
                 CreateEmployee createEmployee = new CreateEmployee();
-                createEmployee.addEmployee(new Employee(name, surname, salary, new Address(street, city, postCode), new Phone(number, category)));
+                createEmployee.addEmployee(new Employee(name, surname, salary, new Address(street, city, postCode), new Phone(number, value)));
 
                 tfName.setText("");
                 tfSurname.setText("");

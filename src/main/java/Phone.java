@@ -1,3 +1,4 @@
+import javax.persistence.Column;
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
 import javax.persistence.Id;
@@ -9,35 +10,14 @@ public class Phone {
     @GeneratedValue
     private int id;
 
+    @Column(name = "number")
     private String number;
-    private Category category;
+    @Column(name = "category")
+    private String category;
 
-    public Phone(String number, Category category) {
+    public Phone(String number, String category) {
         this.number = number;
         this.category = category;
     }
 
-    public int getId() {
-        return id;
-    }
-
-    public void setId(int id) {
-        this.id = id;
-    }
-
-    public String getNumber() {
-        return number;
-    }
-
-    public void setNumber(String number) {
-        this.number = number;
-    }
-
-    public Category getCategory() {
-        return category;
-    }
-
-    public void setCategory(Category category) {
-        this.category = category;
-    }
 }
