@@ -79,7 +79,7 @@ public class MainWindow extends JFrame{
 
     public static void main(String[] args) {
 
-        MainWindow mw = new MainWindow();
+        MainWindow mainWindow = new MainWindow();
 
     }
 }
