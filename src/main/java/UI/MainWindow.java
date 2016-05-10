@@ -65,8 +65,12 @@ public class MainWindow extends JFrame{
             public void actionPerformed(ActionEvent e) {
                 int id = Integer.parseInt(tfEID.getText());
 
-                DeleteEmployee deleteEmployee = new DeleteEmployee();
-                deleteEmployee.deleteEmployee(id);
+                int result = JOptionPane.showConfirmDialog(null, "Are you sure you want to delete record with ID: " + id + " ?");
+
+                if(result == JOptionPane.OK_OPTION){
+                    DeleteEmployee deleteEmployee = new DeleteEmployee();
+                    deleteEmployee.deleteEmployee(id);
+                }
             }
         });
 

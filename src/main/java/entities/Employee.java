@@ -35,4 +35,28 @@ public class Employee {
         this.address = address;
         this.phone = phone;
     }
+
+    public int getId() {
+        return id;
+    }
+
+    public String getFirstName() {
+        return firstName;
+    }
+
+    public String getLastName() {
+        return lastName;
+    }
+
+    public int getSalary() {
+        return salary;
+    }
+
+    public Address getAddress() {
+        return address;
+    }
+
+    public Phone getPhone() {
+        return phone;
+    }
 }

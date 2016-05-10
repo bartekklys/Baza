@@ -2,17 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f0ce97a8-1e75-49c5-bacc-7dcde35a61e5" name="Default" comment="">
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/DatabaseManager/CreateEmployee.java" afterPath="$PROJECT_DIR$/src/main/java/databaseManager/CreateEmployee.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/DatabaseManager/DeleteEmployee.java" afterPath="$PROJECT_DIR$/src/main/java/databaseManager/DeleteEmployee.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/DatabaseManager/HibernateUtil.java" afterPath="$PROJECT_DIR$/src/main/java/databaseManager/HibernateUtil.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/Entities/Address.java" afterPath="$PROJECT_DIR$/src/main/java/entities/Address.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/Entities/Category.java" afterPath="$PROJECT_DIR$/src/main/java/entities/Category.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/Entities/Employee.java" afterPath="$PROJECT_DIR$/src/main/java/entities/Employee.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/Entities/Phone.java" afterPath="$PROJECT_DIR$/src/main/java/entities/Phone.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/UI/MainWindow.java" afterPath="$PROJECT_DIR$/src/main/java/UI/MainWindow.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/hibernate.cfg.xml" afterPath="$PROJECT_DIR$/src/main/resources/hibernate.cfg.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/hibernate.cfg.xml" afterPath="$PROJECT_DIR$/target/classes/hibernate.cfg.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/entities/Employee.java" afterPath="$PROJECT_DIR$/src/main/java/entities/Employee.java" />
     </list>
     <ignored path="Baza.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -38,14 +30,23 @@
       <file leaf-file-name="MainWindow.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/UI/MainWindow.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="36">
-              <caret line="2" column="7" selection-start-line="2" selection-start-column="7" selection-end-line="2" selection-end-column="7" />
+            <state relative-caret-position="232">
+              <caret line="57" column="39" selection-start-line="57" selection-start-column="39" selection-end-line="57" selection-end-column="39" />
               <folding>
-                <element signature="e#2456#2591#0" expanded="true" />
-                <element signature="e#2590#2591#0" expanded="true" />
+                <element signature="e#2130#2625#0" expanded="true" />
+                <element signature="e#2624#2625#0" expanded="true" />
+                <element signature="e#2666#2801#0" expanded="true" />
+                <element signature="e#2800#2801#0" expanded="true" />
                 <element signature="method#main#0;class#MainWindow#0" expanded="false" />
               </folding>
             </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="MainWindow.form" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/UI/MainWindow.form">
+          <provider selected="true" editor-type-id="ui-designer">
+            <state />
           </provider>
         </entry>
       </file>
@@ -92,10 +93,13 @@
         <option value="$PROJECT_DIR$/src/main/java/DatabaseManager/UpdateEmployee.java" />
         <option value="$PROJECT_DIR$/src/main/java/DatabaseManager/CreateEmployee.java" />
         <option value="$PROJECT_DIR$/src/main/resources/hibernate.cfg.xml" />
-        <option value="$PROJECT_DIR$/src/main/java/entities/Employee.java" />
         <option value="$PROJECT_DIR$/src/main/java/entities/Address.java" />
         <option value="$PROJECT_DIR$/src/main/java/entities/Phone.java" />
+        <option value="$PROJECT_DIR$/src/main/java/entities/EmployeeList.java" />
+        <option value="$PROJECT_DIR$/src/main/java/entities/Employee.java" />
+        <option value="$PROJECT_DIR$/src/main/java/databaseManager/CreateEmployee.java" />
         <option value="$PROJECT_DIR$/src/main/java/UI/MainWindow.java" />
+        <option value="$PROJECT_DIR$/src/main/java/UI/MainWindow.form" />
       </list>
     </option>
   </component>
@@ -590,7 +594,14 @@
       <option name="project" value="LOCAL" />
       <updated>1462809563399</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Corrected generating of IDs. Packages names changed.">
+      <created>1462865538004</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1462865538004</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -605,7 +616,7 @@
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32827103" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.33761683" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.31892523" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -666,7 +677,8 @@
     <MESSAGE value="Added address and phone field to Employee class." />
     <MESSAGE value="Adding employee with address and phone to many tables is working correctly." />
     <MESSAGE value="Packages added." />
-    <option name="LAST_COMMIT_MESSAGE" value="Packages added." />
+    <MESSAGE value="Corrected generating of IDs. Packages names changed." />
+    <option name="LAST_COMMIT_MESSAGE" value="Corrected generating of IDs. Packages names changed." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -682,8 +694,10 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="e#2456#2591#0" expanded="true" />
-            <element signature="e#2590#2591#0" expanded="true" />
+            <element signature="e#2130#2625#0" expanded="true" />
+            <element signature="e#2624#2625#0" expanded="true" />
+            <element signature="e#2666#2801#0" expanded="true" />
+            <element signature="e#2800#2801#0" expanded="true" />
             <element signature="method#main#0;class#MainWindow#0" expanded="false" />
           </folding>
         </state>
@@ -712,8 +726,10 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="e#2456#2591#0" expanded="true" />
-            <element signature="e#2590#2591#0" expanded="true" />
+            <element signature="e#2130#2625#0" expanded="true" />
+            <element signature="e#2624#2625#0" expanded="true" />
+            <element signature="e#2666#2801#0" expanded="true" />
+            <element signature="e#2800#2801#0" expanded="true" />
             <element signature="method#main#0;class#MainWindow#0" expanded="false" />
           </folding>
         </state>
@@ -751,17 +767,6 @@
     <entry file="file://$PROJECT_DIR$/src/main/java/EmployeeTable.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/EmployeeModel.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/ReadEmployee.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/UI/MainWindow.form">
-      <provider editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-      <provider selected="true" editor-type-id="ui-designer">
-        <state />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="360">
@@ -799,24 +804,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/databaseManager/CreateEmployee.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="288">
-          <caret line="16" column="0" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/entities/Employee.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="126">
-          <caret line="7" column="4" selection-start-line="7" selection-start-column="4" selection-end-line="7" selection-end-column="52" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/entities/Address.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="123">
@@ -841,13 +828,64 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/entities/EmployeeList.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="10" column="35" selection-start-line="10" selection-start-column="35" selection-end-line="10" selection-end-column="35" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/databaseManager/CreateEmployee.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="288">
+          <caret line="16" column="24" selection-start-line="16" selection-start-column="24" selection-end-line="16" selection-end-column="24" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/entities/Employee.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="463">
+          <caret line="38" column="24" selection-start-line="38" selection-start-column="24" selection-end-line="38" selection-end-column="24" />
+          <folding>
+            <element signature="e#916#917#0" expanded="true" />
+            <element signature="e#952#953#0" expanded="true" />
+            <element signature="e#984#985#0" expanded="true" />
+            <element signature="e#1019#1020#0" expanded="true" />
+            <element signature="e#1050#1051#0" expanded="true" />
+            <element signature="e#1080#1081#0" expanded="true" />
+            <element signature="e#1109#1110#0" expanded="true" />
+            <element signature="e#1144#1145#0" expanded="true" />
+            <element signature="e#1174#1175#0" expanded="true" />
+            <element signature="e#1205#1206#0" expanded="true" />
+            <element signature="e#1233#1234#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/UI/MainWindow.form">
+      <provider editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+      <provider selected="true" editor-type-id="ui-designer">
+        <state />
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/UI/MainWindow.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="36">
-          <caret line="2" column="7" selection-start-line="2" selection-start-column="7" selection-end-line="2" selection-end-column="7" />
+        <state relative-caret-position="232">
+          <caret line="57" column="39" selection-start-line="57" selection-start-column="39" selection-end-line="57" selection-end-column="39" />
           <folding>
-            <element signature="e#2456#2591#0" expanded="true" />
-            <element signature="e#2590#2591#0" expanded="true" />
+            <element signature="e#2130#2625#0" expanded="true" />
+            <element signature="e#2624#2625#0" expanded="true" />
+            <element signature="e#2666#2801#0" expanded="true" />
+            <element signature="e#2800#2801#0" expanded="true" />
             <element signature="method#main#0;class#MainWindow#0" expanded="false" />
           </folding>
         </state>
