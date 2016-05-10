@@ -1,20 +1,18 @@
-package DatabaseManager;
+package databaseManager;
 
-import Entities.*;
+import entities.*;
 import org.hibernate.Session;
 import org.hibernate.SessionFactory;
 
-public class DeleteEmployee {
+public class CreateEmployee {
 
-    public void deleteEmployee(int id){
+    public void addEmployee(Employee employee) {
 
         SessionFactory sessionFactory = HibernateUtil.getSessionFactory();
         Session session = sessionFactory.openSession();
         session.beginTransaction();
 
-        Employee employee = (Employee) session.load(Employee.class, id);
-
-        session.delete(employee);
+        session.save(employee);
         session.getTransaction().commit();
         session.close();
     }

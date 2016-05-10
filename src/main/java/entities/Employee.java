@@ -1,10 +1,11 @@
-package Entities;
+package entities;
 
 import javax.persistence.*;
 
 @Entity
 public class Employee {
-    @Id @GeneratedValue
+    @Id
+    @GeneratedValue(strategy = GenerationType.TABLE)
     @Column(name = "id")
     private int id;
 

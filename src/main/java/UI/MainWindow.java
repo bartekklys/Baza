@@ -1,11 +1,10 @@
 package UI;
 
-import Entities.*;
-import DatabaseManager.CreateEmployee;
-import DatabaseManager.DeleteEmployee;
+import entities.*;
+import databaseManager.CreateEmployee;
+import databaseManager.DeleteEmployee;
 
 import javax.swing.*;
-import javax.swing.table.DefaultTableModel;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 
