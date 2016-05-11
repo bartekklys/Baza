@@ -1,5 +1,6 @@
 package databaseManager;
 
+import java.util.ArrayList;
 import java.util.List;
 
 import UI.MainWindow;
@@ -8,10 +9,12 @@ import org.hibernate.Query;
 import org.hibernate.Session;
 import org.hibernate.SessionFactory;
 
+import javax.swing.*;
+
 
 public class ReadEmployee {
 
-    public void readEmployee() {
+    public void readEmployee(JTextArea area) {
         SessionFactory sessionFactory = HibernateUtil.getSessionFactory();
         Session session = sessionFactory.openSession();
         session.beginTransaction();
@@ -19,8 +22,9 @@ public class ReadEmployee {
 
         Query query = session.createQuery("from Employee");
         List<Employee> employees = query.list();
-        for (Employee employee : employees) {
-            //System.out.println(employee.toString());
+        area.append("==================================================================================================" + "\n");
+        for (Employee e : employees) {
+                area.append(e.toString());
         }
         session.getTransaction().commit();
         session.close();

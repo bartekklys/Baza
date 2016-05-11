@@ -62,8 +62,8 @@ public class Employee {
 
     @Override
     public String toString() {
-        return "First name: " + firstName + ", Last name: " + lastName + ", Salary: " + salary +
+        return "EID: " + id + "First name: " + firstName + ", Last name: " + lastName + ", Salary: " + salary +
                 ", Phone number: " + phone.getNumber() + ", Category: " + phone.getCategory() + ", City: " + address.getCity() + ", Street: " +
-                address.getStreet() + ", Post code: " + address.getPostCode();
+                address.getStreet() + ", Post code: " + address.getPostCode() + "\n";
     }
 }

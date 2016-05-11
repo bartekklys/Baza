@@ -2,13 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f0ce97a8-1e75-49c5-bacc-7dcde35a61e5" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/databaseManager/ReadEmployee.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/UI/MainWindow.form" afterPath="$PROJECT_DIR$/src/main/java/UI/MainWindow.form" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/UI/MainWindow.java" afterPath="$PROJECT_DIR$/src/main/java/UI/MainWindow.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/entities/Address.java" afterPath="$PROJECT_DIR$/src/main/java/entities/Address.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/databaseManager/ReadEmployee.java" afterPath="$PROJECT_DIR$/src/main/java/databaseManager/ReadEmployee.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/entities/Employee.java" afterPath="$PROJECT_DIR$/src/main/java/entities/Employee.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/entities/Phone.java" afterPath="$PROJECT_DIR$/src/main/java/entities/Phone.java" />
     </list>
     <ignored path="Baza.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -31,43 +29,28 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="MainWindow.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="MainWindow.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/UI/MainWindow.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-653">
-              <caret line="26" column="10" selection-start-line="26" selection-start-column="10" selection-end-line="26" selection-end-column="10" />
+            <state relative-caret-position="585">
+              <caret line="82" column="32" selection-start-line="82" selection-start-column="32" selection-end-line="82" selection-end-column="32" />
               <folding>
-                <element signature="e#2948#3160#0" expanded="true" />
-                <element signature="e#3159#3160#0" expanded="true" />
+                <element signature="imports" expanded="true" />
+                <element signature="e#3221#3441#0" expanded="true" />
+                <element signature="e#3440#3441#0" expanded="true" />
                 <element signature="method#main#0;class#MainWindow#0" expanded="false" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ReadEmployee.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="ReadEmployee.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/databaseManager/ReadEmployee.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="396">
-              <caret line="22" column="14" selection-start-line="22" selection-start-column="14" selection-end-line="22" selection-end-column="14" />
+            <state relative-caret-position="423">
+              <caret line="24" column="127" selection-start-line="24" selection-start-column="127" selection-end-line="24" selection-end-column="127" />
               <folding>
                 <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Address.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/entities/Address.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="427">
-              <caret line="25" column="31" selection-start-line="25" selection-start-column="31" selection-end-line="25" selection-end-column="31" />
-              <folding>
-                <element signature="e#580#581#0" expanded="true" />
-                <element signature="e#611#612#0" expanded="true" />
-                <element signature="e#638#639#0" expanded="true" />
-                <element signature="e#673#674#0" expanded="true" />
-                <element signature="e#704#705#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -76,31 +59,17 @@
       <file leaf-file-name="Employee.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/entities/Employee.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="409">
-              <caret line="66" column="40" selection-start-line="66" selection-start-column="40" selection-end-line="66" selection-end-column="40" />
-              <folding>
-                <element signature="e#891#892#0" expanded="true" />
-                <element signature="e#916#917#0" expanded="true" />
-                <element signature="e#1144#1145#0" expanded="true" />
-                <element signature="e#1174#1175#0" expanded="true" />
-                <element signature="e#1205#1206#0" expanded="true" />
-                <element signature="e#1233#1234#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="459">
+              <caret line="63" column="30" selection-start-line="63" selection-start-column="30" selection-end-line="63" selection-end-column="30" />
+              <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Phone.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/entities/Phone.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="414">
-              <caret line="23" column="31" selection-start-line="23" selection-start-column="31" selection-end-line="23" selection-end-column="31" />
-              <folding>
-                <element signature="e#483#484#0" expanded="true" />
-                <element signature="e#518#519#0" expanded="true" />
-                <element signature="e#549#550#0" expanded="true" />
-              </folding>
-            </state>
+      <file leaf-file-name="MainWindow.form" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/UI/MainWindow.form">
+          <provider selected="true" editor-type-id="ui-designer">
+            <state />
           </provider>
         </entry>
       </file>
@@ -149,12 +118,14 @@
         <option value="$PROJECT_DIR$/src/main/resources/hibernate.cfg.xml" />
         <option value="$PROJECT_DIR$/src/main/java/entities/EmployeeList.java" />
         <option value="$PROJECT_DIR$/src/main/java/databaseManager/CreateEmployee.java" />
-        <option value="$PROJECT_DIR$/src/main/java/UI/MainWindow.form" />
-        <option value="$PROJECT_DIR$/src/main/java/UI/MainWindow.java" />
         <option value="$PROJECT_DIR$/src/main/java/entities/Phone.java" />
         <option value="$PROJECT_DIR$/src/main/java/entities/Address.java" />
+        <option value="$PROJECT_DIR$/src/main/java/util/Employees.java" />
+        <option value="$PROJECT_DIR$/src/main/java/util/EmployeeList.java" />
+        <option value="$PROJECT_DIR$/src/main/java/UI/MainWindow.form" />
         <option value="$PROJECT_DIR$/src/main/java/entities/Employee.java" />
         <option value="$PROJECT_DIR$/src/main/java/databaseManager/ReadEmployee.java" />
+        <option value="$PROJECT_DIR$/src/main/java/UI/MainWindow.java" />
       </list>
     </option>
   </component>
@@ -169,7 +140,7 @@
     <option name="x" value="55" />
     <option name="y" value="-4" />
     <option name="width" value="1865" />
-    <option name="height" value="980" />
+    <option name="height" value="1084" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <OptionsSetting value="true" id="Add" />
@@ -349,7 +320,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="UI_DESIGNER_EDITOR_MODE.UIDesignerToolWindowManager.WIDTH" value="288" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$USER_HOME$/Dropbox/AGH/sem 4/PwJ/Lab" />
     <property name="UI_DESIGNER_EDITOR_MODE.PaletteManager.WIDTH" value="179" />
   </component>
   <component name="RecentsManager">
@@ -663,22 +634,29 @@
       <option name="project" value="LOCAL" />
       <updated>1462867543530</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Added refresh button which display records from database to console.">
+      <created>1462968097865</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1462968097865</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="55" y="-4" width="1865" height="980" extended-state="6" />
+    <frame x="55" y="-4" width="1865" height="1084" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3259346" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.325" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32827103" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.31892523" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.284375" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -741,7 +719,8 @@
     <MESSAGE value="Packages added." />
     <MESSAGE value="Corrected generating of IDs. Packages names changed." />
     <MESSAGE value="Added confirmation window to delete option." />
-    <option name="LAST_COMMIT_MESSAGE" value="Added confirmation window to delete option." />
+    <MESSAGE value="Added refresh button which display records from database to console." />
+    <option name="LAST_COMMIT_MESSAGE" value="Added refresh button which display records from database to console." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -757,8 +736,9 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="e#2948#3160#0" expanded="true" />
-            <element signature="e#3159#3160#0" expanded="true" />
+            <element signature="imports" expanded="true" />
+            <element signature="e#3221#3441#0" expanded="true" />
+            <element signature="e#3440#3441#0" expanded="true" />
             <element signature="method#main#0;class#MainWindow#0" expanded="false" />
           </folding>
         </state>
@@ -779,8 +759,9 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="e#2948#3160#0" expanded="true" />
-            <element signature="e#3159#3160#0" expanded="true" />
+            <element signature="imports" expanded="true" />
+            <element signature="e#3221#3441#0" expanded="true" />
+            <element signature="e#3440#3441#0" expanded="true" />
             <element signature="method#main#0;class#MainWindow#0" expanded="false" />
           </folding>
         </state>
@@ -804,8 +785,9 @@
         <state relative-caret-position="900">
           <caret line="57" column="39" selection-start-line="57" selection-start-column="39" selection-end-line="57" selection-end-column="39" />
           <folding>
-            <element signature="e#2948#3160#0" expanded="true" />
-            <element signature="e#3159#3160#0" expanded="true" />
+            <element signature="imports" expanded="true" />
+            <element signature="e#3221#3441#0" expanded="true" />
+            <element signature="e#3440#3441#0" expanded="true" />
             <element signature="method#main#0;class#MainWindow#0" expanded="false" />
           </folding>
         </state>
@@ -829,8 +811,9 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="e#2948#3160#0" expanded="true" />
-            <element signature="e#3159#3160#0" expanded="true" />
+            <element signature="imports" expanded="true" />
+            <element signature="e#3221#3441#0" expanded="true" />
+            <element signature="e#3440#3441#0" expanded="true" />
             <element signature="method#main#0;class#MainWindow#0" expanded="false" />
           </folding>
         </state>
@@ -856,8 +839,9 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="e#2948#3160#0" expanded="true" />
-            <element signature="e#3159#3160#0" expanded="true" />
+            <element signature="imports" expanded="true" />
+            <element signature="e#3221#3441#0" expanded="true" />
+            <element signature="e#3440#3441#0" expanded="true" />
             <element signature="method#main#0;class#MainWindow#0" expanded="false" />
           </folding>
         </state>
@@ -928,17 +912,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/UI/MainWindow.form">
-      <provider selected="true" editor-type-id="ui-designer">
-        <state />
-      </provider>
-      <provider editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/databaseManager/CreateEmployee.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="252">
@@ -947,33 +920,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/entities/Phone.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="414">
-          <caret line="23" column="31" selection-start-line="23" selection-start-column="31" selection-end-line="23" selection-end-column="31" />
-          <folding>
-            <element signature="e#483#484#0" expanded="true" />
-            <element signature="e#518#519#0" expanded="true" />
-            <element signature="e#549#550#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/UI/MainWindow.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-653">
-          <caret line="26" column="10" selection-start-line="26" selection-start-column="10" selection-end-line="26" selection-end-column="10" />
-          <folding>
-            <element signature="e#2948#3160#0" expanded="true" />
-            <element signature="e#3159#3160#0" expanded="true" />
-            <element signature="method#main#0;class#MainWindow#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/entities/Address.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="427">
+        <state relative-caret-position="450">
           <caret line="25" column="31" selection-start-line="25" selection-start-column="31" selection-end-line="25" selection-end-column="31" />
           <folding>
             <element signature="e#580#581#0" expanded="true" />
@@ -985,27 +934,72 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/entities/Employee.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/entities/Phone.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="409">
-          <caret line="66" column="40" selection-start-line="66" selection-start-column="40" selection-end-line="66" selection-end-column="40" />
+        <state relative-caret-position="301">
+          <caret line="23" column="31" selection-start-line="23" selection-start-column="31" selection-end-line="23" selection-end-column="31" />
           <folding>
-            <element signature="e#891#892#0" expanded="true" />
-            <element signature="e#916#917#0" expanded="true" />
-            <element signature="e#1144#1145#0" expanded="true" />
-            <element signature="e#1174#1175#0" expanded="true" />
-            <element signature="e#1205#1206#0" expanded="true" />
-            <element signature="e#1233#1234#0" expanded="true" />
+            <element signature="e#483#484#0" expanded="true" />
+            <element signature="e#518#519#0" expanded="true" />
+            <element signature="e#549#550#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/util/Employees.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="12" column="0" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/util/EmployeeList.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="396">
+          <caret line="22" column="48" selection-start-line="22" selection-start-column="48" selection-end-line="22" selection-end-column="48" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/UI/MainWindow.form">
+      <provider selected="true" editor-type-id="ui-designer">
+        <state />
+      </provider>
+      <provider editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/databaseManager/ReadEmployee.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="396">
-          <caret line="22" column="14" selection-start-line="22" selection-start-column="14" selection-end-line="22" selection-end-column="14" />
+        <state relative-caret-position="423">
+          <caret line="24" column="127" selection-start-line="24" selection-start-column="127" selection-end-line="24" selection-end-column="127" />
           <folding>
             <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/entities/Employee.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="459">
+          <caret line="63" column="30" selection-start-line="63" selection-start-column="30" selection-end-line="63" selection-end-column="30" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/UI/MainWindow.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="585">
+          <caret line="82" column="32" selection-start-line="82" selection-start-column="32" selection-end-line="82" selection-end-column="32" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#3221#3441#0" expanded="true" />
+            <element signature="e#3440#3441#0" expanded="true" />
+            <element signature="method#main#0;class#MainWindow#0" expanded="false" />
           </folding>
         </state>
       </provider>

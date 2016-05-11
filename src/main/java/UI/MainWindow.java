@@ -24,13 +24,13 @@ public class MainWindow extends JFrame{
     private JTextField tfPostCode;
     private JButton exitButton;
     private JButton refreshButton;
-    public JList employeeList;
+    private JTextArea textArea;
 
 
     public MainWindow() {
 
-        int width = 700;
-        int height = 450;
+        int width = 1400;
+        int height = 950;
         setSize(width, height);
         setContentPane(main);
         setVisible(true);
@@ -53,6 +53,9 @@ public class MainWindow extends JFrame{
                 CreateEmployee createEmployee = new CreateEmployee();
                 createEmployee.addEmployee(new Employee(name, surname, salary, new Address(street, city, postCode), new Phone(number, category)));
 
+                ReadEmployee readEmployee = new ReadEmployee();
+                readEmployee.readEmployee(textArea);
+
                 tfName.setText("");
                 tfSurname.setText("");
                 tfSalary.setText("");
@@ -74,6 +77,10 @@ public class MainWindow extends JFrame{
                     DeleteEmployee deleteEmployee = new DeleteEmployee();
                     deleteEmployee.deleteEmployee(id);
                 }
+                ReadEmployee readEmployee = new ReadEmployee();
+                readEmployee.readEmployee(textArea);
+
+                tfEID.setText("");
             }
         });
 
@@ -86,7 +93,7 @@ public class MainWindow extends JFrame{
         refreshButton.addActionListener(new ActionListener() {
             public void actionPerformed(ActionEvent e) {
                 ReadEmployee readEmployee = new ReadEmployee();
-                readEmployee.readEmployee();
+                readEmployee.readEmployee(textArea);
             }
         });
     }
