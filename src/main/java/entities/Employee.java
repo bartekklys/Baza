@@ -59,4 +59,11 @@ public class Employee {
     public Phone getPhone() {
         return phone;
     }
+
+    @Override
+    public String toString() {
+        return "First name: " + firstName + ", Last name: " + lastName + ", Salary: " + salary +
+                ", Phone number: " + phone.getNumber() + ", Category: " + phone.getCategory() + ", City: " + address.getCity() + ", Street: " +
+                address.getStreet() + ", Post code: " + address.getPostCode();
+    }
 }

@@ -1,5 +1,6 @@
 package UI;
 
+import databaseManager.ReadEmployee;
 import entities.*;
 import databaseManager.CreateEmployee;
 import databaseManager.DeleteEmployee;
@@ -22,6 +23,8 @@ public class MainWindow extends JFrame{
     private JTextField tfCity;
     private JTextField tfPostCode;
     private JButton exitButton;
+    private JButton refreshButton;
+    public JList employeeList;
 
 
     public MainWindow() {
@@ -77,6 +80,13 @@ public class MainWindow extends JFrame{
         exitButton.addActionListener(new ActionListener() {
             public void actionPerformed(ActionEvent e) {
                 System.exit(0);
+            }
+        });
+
+        refreshButton.addActionListener(new ActionListener() {
+            public void actionPerformed(ActionEvent e) {
+                ReadEmployee readEmployee = new ReadEmployee();
+                readEmployee.readEmployee();
             }
         });
     }

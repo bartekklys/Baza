@@ -20,4 +20,12 @@ public class Phone {
         this.number = number;
         this.category = category;
     }
+
+    public String getNumber() {
+        return number;
+    }
+
+    public String getCategory() {
+        return category;
+    }
 }

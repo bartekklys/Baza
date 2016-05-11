@@ -22,4 +22,16 @@ public class Address {
         this.city = city;
         this.postCode = postCode;
     }
+
+    public String getStreet() {
+        return street;
+    }
+
+    public String getCity() {
+        return city;
+    }
+
+    public String getPostCode() {
+        return postCode;
+    }
 }
