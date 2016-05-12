@@ -22,7 +22,8 @@ public class ReadEmployee {
 
         Query query = session.createQuery("from Employee");
         List<Employee> employees = query.list();
-        area.append("==================================================================================================" + "\n");
+        area.setText(null);
+        //area.append("==================================================================================================" + "\n");
         for (Employee e : employees) {
                 area.append(e.toString());
         }
